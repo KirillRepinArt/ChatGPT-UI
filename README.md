@@ -12,6 +12,8 @@ It's the main font for ChatGPT, I think it makes a big difference for the overal
 This is my first attempt in CSS, my goal was to create a chat window, so all of the other ones don't look good, some a barely usable tbh. But the chat itself works pretty good, as far as I can tell.
 
 I've also attached .ico file, I use it to changes the standard look of the .bat file, and a character card with the very basic assistant. But it looks nice with the new design.
+
+In server.py I just added "Send a message" placeholder, it already exists in the newer versions, but not in this one. CSS and .js files should be placed into ccss folder inside text-generation-webui, but make sure you made the backup version of the originals.
 ![Demo_07](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/115b7f48-71d0-4009-a8ba-56dbd34eae56)
 ![Demo_04](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/31d52141-3593-4091-b63b-3d8f42c29fee)
 ![Demo_05](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/4a3fb266-5acc-42ae-8a75-b73dfd4c2284)
