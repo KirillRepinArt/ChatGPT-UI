@@ -7,7 +7,10 @@ Newer versions of text-generation-webui have different structure and when I trie
 
 I've attached all of the files that I think one might need, including the font **Sohne**. 
 
-It's the main font for ChatGPT, I think it makes a big difference for the overall design. The versions of this font that I've found didn't work with the UI, so I had to modify it, remove some symbols and change the format a couple of times. I highly recommend installing the version of the font I've provided, if you want to get that ChatGPT look.
+It's the main font for ChatGPT, I think it makes a big difference for the overall design. The versions of the font that I've found, refuse to display in the browser.
+I've noticed that there were other attempts to use this font for other styles, but my browser (Brave) was still rendering Arial.
+
+But the version of the font in the repo seem to work with the browser just fine, I highly recommend installing the version of the font I've provided, if you want to get that ChatGPT look.
 
 This is my first attempt in CSS, my goal was to create a chat window, so all of the other ones don't look good, some a barely usable tbh. But the chat itself works pretty good, as far as I can tell.
 
