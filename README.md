@@ -19,3 +19,6 @@ In server.py I just added "Send a message" placeholder, it already exists in the
 ![Demo_05](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/4a3fb266-5acc-42ae-8a75-b73dfd4c2284)
 ![Demo_06](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/b6948ff2-a58e-4a2a-a1a0-50151164b084)
 ![Demo_08](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/7449de4f-2dc5-43ed-a051-33fcf4e7b4e5)
+
+And just in case it wasn't obvious, this is the first thing I've made with CSS ever. 
+I did in 8 days with the help of ChatGPT, it wouldn't be possible for me otherwise. But all things considered I'm quite proud of the result, I must say.
