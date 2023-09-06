@@ -157,6 +157,10 @@ textarea[data-testid="textbox"].scroll-hide {
 #component-37:hover {
     background-color: #40414f;
 }
+/* Style the button when it's active (clicked) */
+#component-37:active {
+  border: 1px solid white !important;
+}
 #stop {
   background: none;
   padding: 0;
@@ -181,6 +185,9 @@ textarea[data-testid="textbox"].scroll-hide {
 #stop:hover {
     background-color: #40414f!important;
 }
+#stop:active {
+  border: 1px solid white !important;
+}
 /*Impersonate, regenerate, remove_last_message*/
 #component-38 {
     width: 240px;
@@ -192,7 +199,6 @@ textarea[data-testid="textbox"].scroll-hide {
 #component-38 button {
     margin-right: 9px!important;
 }
-
 #component-39 {
     display: none;
 }
@@ -220,6 +226,9 @@ textarea[data-testid="textbox"].scroll-hide {
 #component-40:hover {
     background-color: #40414f!important;
 }
+#component-40:active {
+  border: 1px solid white !important;
+}
 /* DELETE LAST*/
 #component-41 {
   background: none;
@@ -244,6 +253,9 @@ textarea[data-testid="textbox"].scroll-hide {
 }
 #component-41:hover {
     background-color: #40414f!important;
+}
+#component-41:active {
+  border: 1px solid white !important;
 }
 /*Copy, replace_last_reply, send_dummy_message, send_dummy_reply*/
 #component-42 {
@@ -287,7 +299,6 @@ textarea[data-testid="textbox"].scroll-hide {
 #component-47 button:active {
     background-color: #2a2b32;
 }
-
 
 #component-48 {
     font-size: 14px;
@@ -389,7 +400,6 @@ textarea[data-testid="textbox"].scroll-hide {
     background-color: #343541 !important;
     box-shadow: none !important;
 }
-
 
 #extensions {
     width: 800px;
