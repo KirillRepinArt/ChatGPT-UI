@@ -475,7 +475,6 @@ textarea[data-testid="textbox"].scroll-hide {
     background-color: #343541;
     padding: 36px 67px 44px 335px; /* Adjusted padding to create space for the avatar */
     position: relative; /* Make sure the parent is relatively positioned */
-
 }
 /* Style the color block of the dark 1px line at the bottom*/
 .circle-you + .text::after {
@@ -528,6 +527,28 @@ textarea[data-testid="textbox"].scroll-hide {
 }
 .message-body p em {
     color: rgb(209, 213, 219);
+}
+/* Add this CSS to style bot messages with list indicators */
+.circle-bot + .text ul,
+.circle-bot + .text ol {
+    list-style-position: outside !important;
+    content: "\00a0" !important;
+}
+.circle-bot + .text ul li,
+.circle-bot + .text ol li {
+    padding-left: 5px; /* Adjust the padding-left to control the distance between the numbers and the text */
+    color: #acacbe !important;
+}
+.circle-bot + .text ul li::before,
+.circle-bot + .text ol li::before {
+    margin-left: -10px; /* Add space and an en dash (–) before the list item */
+}
+
+.circle-you + .text p {
+    color: #ffffff !important;
+}
+.circle-bot + .text p {
+    color: #e5e5e5 !important;
 }
 #parameters,
 #model-tab,
