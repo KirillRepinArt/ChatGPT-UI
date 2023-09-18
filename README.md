@@ -11,7 +11,6 @@ This is a css style for [text-generation-webui][1] that looks like ChatGPT.
 3. Launch text-generation-webui's web server.
 4. Scroll down to see Chat style,
    and select Chat-GPT from the available chat styles.
-    - <img width="898" alt="screenshot of chat styles menu" src="https://github.com/jamesbraza/ChatGPT-UI/assets/8990777/96229332-ff1a-4c70-a714-8fefb0f8fa2d">
 5. That's it.
 
 This style is meant to be used only in a chat setting, I haven't styled other pages like 'Parameters', 'Model' and so on.
