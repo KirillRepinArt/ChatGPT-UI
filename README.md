@@ -6,8 +6,8 @@ This is a css style for [text-generation-webui][1] that looks like ChatGPT.
 
 1. Download `sohne-Regular_this one.otf` font, and install it.
     - Mac: use Font Book for this (File --> Add Fonts to Current User)
-2. Download `chat_style-Chat-GPT.css` CSS,
-   and place it into [text-generation-webui\css][2] folder.
+2. Download `chat_style-Chat-GPT.css` and `main.css`,
+   and place them into [text-generation-webui\css][2] folder.
 3. Launch text-generation-webui's web server.
 4. Scroll down to see Chat style,
    and select Chat-GPT from the available chat styles.
