@@ -196,6 +196,11 @@
 #component-39 .svelte-b6y5bg {
   box-shadow: none !important;
 }
+textarea[data-testid="textbox"].svelte-1pie7s6 {
+    box-shadow: 0 0px 12px rgba(49, 52, 58, 1.0)!important;
+    outline: none !important;
+    border: 0.5px solid rgba(48, 49, 57, 1.0)!important;
+}
 textarea[data-testid="textbox"] {
     max-height: 232px;
     min-height: 58px;
@@ -206,11 +211,14 @@ textarea[data-testid="textbox"] {
     padding: 17px 57px 16px 16px;
     box-sizing: border-box!important;
     overflow-wrap: anywhere;
-    border: 0.5px solid rgba(48, 49, 57, 1)!important;
+
     border-radius: 12px!important;
-    box-shadow: outset 0 0px 12px rgba(51, 53, 61, 0.7)!important;
+
     z-index: 3!important;
     overflow-y: auto; /* Enable scrollbar if content exceeds max-height */
+}
+textarea[data-testid="textbox"].svelte-1pie7s6::placeholder {
+    color: #8e8ea0 !important;
 }
 
 textarea[data-testid="textbox"]::-webkit-scrollbar {
@@ -345,8 +353,9 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
   position: absolute;
   border: 0px !important;
   left: -141px;
-  bottom: -10px;
+  bottom: -8px;
 }
+
 #hover-menu button {
     background: none;
     padding: 0;
@@ -374,10 +383,10 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
 #hover-menu button span.transparent-substring {
   display: none !important;
 }
-#hover-menu button:hover {
-    background-color: #40414f!important;
+#hover-menu button.svelte-1ipelgc:active {
+    border: 1px solid white !important;
 }
-#hover-menu button:active {
+#hover-menu button.svelte-1ipelgc#Regenerate:active {
     border: 1px solid white !important;
 }
 
