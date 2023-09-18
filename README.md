@@ -1,11 +1,18 @@
 # ChatGPT-UI
-This is a css style for text-generation-webui that looks like ChatGPT. 
 
-*How to use it for Windows:*
-1. Download sohne-Regular_this one.otf font, and install it.
-2. Download chat_style-Chat-GPT.css and put it into ext-generation-webui\css folder.
-3. Launch TextGen, Chat-GPT style should be available among other Chat-styles.
-4. That's it.
+This is a css style for [text-generation-webui][1] that looks like ChatGPT. 
+
+## Getting Started
+
+1. Download `sohne-Regular_this one.otf` font, and install it.
+    - Mac: use Font Book for this (File --> Add Fonts to Current User)
+2. Download `chat_style-Chat-GPT.css` CSS,
+   and place it into [text-generation-webui\css][2] folder.
+3. Launch text-generation-webui's web server.
+4. Scroll down to see Chat style,
+   and select Chat-GPT from the available chat styles.
+    - <img width="898" alt="screenshot of chat styles menu" src="https://github.com/jamesbraza/ChatGPT-UI/assets/8990777/96229332-ff1a-4c70-a714-8fefb0f8fa2d">
+5. That's it.
 
 This style is meant to be used only in a chat setting, I havent styled other pages like 'Parameters', 'Model' and so on.
 
@@ -16,3 +23,6 @@ This style is meant to be used only in a chat setting, I havent styled other pag
 ![TextGen_wip_05](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/f38bf7fb-46e3-4108-98b5-304f06f8e889)
 ![TextGen_wip_06](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/273bc857-5cab-48ca-a015-8383dcb4173b)
 ![TextGen_wip_07](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/9dd14cce-56ce-47d0-8a77-6aaf0e35f769)
+
+[1]: https://github.com/oobabooga/text-generation-webui
+[2]: https://github.com/oobabooga/text-generation-webui/tree/main/css
