@@ -14,7 +14,7 @@ This is a css style for [text-generation-webui][1] that looks like ChatGPT.
     - <img width="898" alt="screenshot of chat styles menu" src="https://github.com/jamesbraza/ChatGPT-UI/assets/8990777/96229332-ff1a-4c70-a714-8fefb0f8fa2d">
 5. That's it.
 
-This style is meant to be used only in a chat setting, I havent styled other pages like 'Parameters', 'Model' and so on.
+This style is meant to be used only in a chat setting, I haven't styled other pages like 'Parameters', 'Model' and so on.
 
 ![TextGen_wip_01](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/d3f49a8c-c730-42ce-b269-77d83dfd403f)
 ![TextGen_wip_02](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/d0ddf141-bd54-46b6-bc99-49e6ebd141a9)
