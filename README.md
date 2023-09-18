@@ -26,3 +26,7 @@ This style is meant to be used only in a chat setting, I haven't styled other pa
 
 [1]: https://github.com/oobabooga/text-generation-webui
 [2]: https://github.com/oobabooga/text-generation-webui/tree/main/css
+
+Couple of notes.
+1. For 'Clear history' button, the buttons 'Cancel' and 'Confirm' are now permanently present above 'Clear history' button.
+2. If this style works for you and you would like to keep using it, I suggest caution when updating TexGen. The changes in the main repo might affect the names of the groups I've targeted with CSS, which would result in Chat-GPT style not working properly.
