@@ -40,8 +40,8 @@
 #model-tab,
 #training-tab,
 #session-tab {
-    width: 70%; /* Set the width to 80% */
-    left: calc(50% - 500px); /* Move it 200px to the left */
+    width: 70%;
+    left: calc(50% - 500px);
     z-index: 50!important;
 }
 
@@ -54,7 +54,7 @@
 }
 
 #component-64 .svelte-b6y5bg {
-  display: none !important;  /* Hide Mode block */
+  display: none !important;
 }
 
 .header_bar {
@@ -64,11 +64,10 @@
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
-    z-index: 200; /* Set a high z-index to keep the header on top */
-    padding-top: 9px; /* Add top padding for spacing */
+    z-index: 200;
+    padding-top: 9px;
 }
 .svelte-1g805jl button {
-    /* Common styles for all buttons within the group */
     font-size: 14px;
     color: #ececf1!important;
     background-color: transparent;
@@ -78,13 +77,13 @@
     width: 244px;
     height: 44px;
     border-radius: 7px!important;
-    margin-left: 8px; /* Move the whole button 8px to the right */
-    padding-left: 31px; /* Move just the text part 8px to the left */
-    padding-top: 13px!important; /* Add margin to create spacing between lines */
+    margin-left: 8px;
+    padding-left: 31px;
+    padding-top: 13px!important;
     cursor: pointer;
-    text-align: left; /* Align buttons to the left edge */
-    display: flex !important; /* Make it a flex container */
-    flex-direction: column !important; /* Set to column layout */
+    text-align: left;
+    display: flex !important;
+    flex-direction: column !important;
 }
 /* Change background color on hover for header menu buttons */
 .svelte-1g805jl button:hover {
@@ -197,10 +196,19 @@
   box-shadow: none !important;
 }
 textarea[data-testid="textbox"].svelte-1pie7s6 {
+    box-shadow:  none !important;
+    outline: none !important;
+    border: 0.5px solid rgba(48, 49, 57, 1.0)!important;
+}
+textarea[data-testid="textbox"].svelte-1pie7s6:active,
+textarea[data-testid="textbox"].svelte-1pie7s6:focus,
+textarea[data-testid="textbox"].svelte-1pie7s6:hover,
+textarea[data-testid="textbox"].svelte-1pie7s6.selected, {
     box-shadow: 0 0px 12px rgba(49, 52, 58, 1.0)!important;
     outline: none !important;
     border: 0.5px solid rgba(48, 49, 57, 1.0)!important;
 }
+
 textarea[data-testid="textbox"] {
     max-height: 232px;
     min-height: 58px;
@@ -211,11 +219,9 @@ textarea[data-testid="textbox"] {
     padding: 17px 57px 16px 16px;
     box-sizing: border-box!important;
     overflow-wrap: anywhere;
-
     border-radius: 12px!important;
-
     z-index: 3!important;
-    overflow-y: auto; /* Enable scrollbar if content exceeds max-height */
+    overflow-y: scroll!important;
 }
 textarea[data-testid="textbox"].svelte-1pie7s6::placeholder {
     color: #8e8ea0 !important;
@@ -242,7 +248,7 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
     max-width: calc(100% - 0px)!important;
     height: 889px!important;
     padding: 0px 0px 103px 3px!important; /* Adjust the padding for scrollbar */
-    margin: 0px auto 0px auto; /* Center horizontally */
+    margin: 0px auto 0px auto;
     overflow-y: auto;
     display: flex;
     flex-direction: column-reverse!important;
@@ -266,7 +272,7 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
     display: block!important;
     width: 75px!important;
     height: 40px!important;
-    position: absolute; /* Position it absolutely within the container */
+    position: absolute;
     left: calc(50% + 498px);
     top: calc(50% + 400px);
     z-index: 5!important;
@@ -376,9 +382,9 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
     height: 38px !important;
     box-shadow: none !important;
     cursor: pointer;
-    text-align: left; /* Align buttons to the left edge */
-    display: flex !important; /* Make it a flex container */
-    flex-direction: column !important; /* Set to column layout */
+    text-align: left;
+    display: flex !important;
+    flex-direction: column !important;
 }
 #hover-menu button span.transparent-substring {
   display: none !important;
@@ -388,6 +394,10 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
 }
 #hover-menu button.svelte-1ipelgc#Regenerate:active {
     border: 1px solid white !important;
+}
+
+#hover-menu button:hover {
+  background-color: #40414f !important;
 }
 
 .circle-you,
@@ -408,18 +418,18 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
 }
 .circle-you + .text {
     background-color: #343541;
-    padding: 36px 67px 44px 335px; /* Adjusted padding to create space for the avatar */
-    position: relative; /* Make sure the parent is relatively positioned */
+    padding: 36px 67px 44px 335px;
+    position: relative;
 }
 /* Style the color block of the dark 1px line at the bottom*/
 .circle-you + .text::after {
     content: "";
     position: absolute;
-    bottom: -1px; /* Position the line below the message */
-    left: 0; /* Align with the avatar */
-    width: 100%; /* Occupy the full width of the message */
-    height: 1px; /* Add a 1px line */
-    background-color: #2a2b32; /* Set the color */
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #2a2b32;
     z-index: 1;
 }
 .circle-you + .text .username,
@@ -428,9 +438,9 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
 }
 .circle-bot + .text {
     background-color: #444654;
-    padding: 31px 67px 31px 335px; /* Adjusted padding to create space for the avatar */
-    position: relative; /* Make sure the parent is relatively positioned */
-    margin-left: 0px; /* Create space for the color block */
+    padding: 31px 67px 31px 335px;
+    position: relative;
+    margin-left: 0px;
 }
 .circle-you img,
 .circle-bot img {
@@ -471,12 +481,12 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
 }
 .circle-bot + .text ul li,
 .circle-bot + .text ol li {
-    padding-left: 5px; /* Adjust the padding-left to control the distance between the numbers and the text */
+    padding-left: 5px;
     color: #acacbe !important;
 }
 .circle-bot + .text ul li::before,
 .circle-bot + .text ol li::before {
-    margin-left: -10px; /* Add space and an en dash (–) before the list item */
+    margin-left: -10px;
 }
 .circle-you + .text p {
     color: #ffffff !important;
