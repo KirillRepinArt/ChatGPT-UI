@@ -2,6 +2,10 @@
 
 This is a css style for [text-generation-webui][1] that looks like ChatGPT. 
 
+Since the migration of the on-click-installer the Chat-GPT style is broken again.
+
+I guess that's why we can't have nice things.
+Should still work for older version though.
 ## Getting Started
 
 1. Download `sohne-Regular_this one.otf` font, and install it.
