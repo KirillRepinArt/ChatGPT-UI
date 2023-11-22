@@ -361,7 +361,8 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
   background-color: #343541!important;
   border: 1px solid rgba(93, 94, 106, 1.0)!important;
   box-shadow: 0 0px 3px rgba(52, 53, 62, 1.0)!important;
-  color: #9a9aa0!important;
+  color: white!important;
+/*  color: #9a9aa0!important; */
 }
 #hover-menu button:focus {
   outline: 2px solid rgba(255, 255, 255, 1.0)!important;
