@@ -487,7 +487,9 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
     margin-left: 0px!important;
     padding-top: 13px!important;
     padding-left: 14px !important;
-
+}
+#past-chats-row .options .item:hover {
+    background-color: #202123 !important;
 }
 #past-chats-row {
     width: 250px !important;
@@ -651,24 +653,33 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
 }
 .circle-bot {
     background-color: #19c37d;
+    margin-top: 22px;
 }
 .circle-you + .text,
 .circle-bot + .text {
     background-color: #343541;
-    padding: 35px 67px 12px 337px;
+    padding: 35px 67px 12px 258px;
     position: relative;
 }
 
-.circle-you + .text .username,
-.circle-bot + .text .username {
+.circle-you + .text .username {
     float: left;
     position: relative;
     z-index: 1;
     left: calc(50% + 25px);
     top: -23px;
-    transform: translateX(-370px);
+    transform: translateX(-330px);
     font-weight: bold;
 }
+.circle-bot + .text .username {
+    float: left;
+    position: relative;
+    z-index: 1;
+    left: calc(50% + 25px);
+    top: -25px;
+    transform: translateX(-330px);
+    font-weight: bold;
+  }
 .circle-you img,
 .circle-bot img {
     width: 100%;
@@ -684,7 +695,7 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
     font-size: 16px;
 }
 .message-body {
-    max-width: 692px;
+    max-width: 613px;
     margin: 0 auto;
 }
 .message-body img {
@@ -717,4 +728,80 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
 }
 .circle-bot + .text p {
     color: #bec1c8 !important;
+}
+@font-face {
+  font-family: 'TestSöhneMono-Leicht';
+  src: url('path/to/TestSöhneMono-Leicht.otf') format('opentype');
+}
+
+.language-c::before,
+.language-cpp::before,
+.language-css::before,
+.language-html::before,
+.language-javascript::before,
+.language-php::before,
+.language-python::before,
+.language-ruby::before,
+.language-swift::before {
+  content: "c"; /* Language name */
+  font-size: 12px;
+  display: block;
+  padding: 6px;
+  padding-left: 16px;
+  padding-bottom: 5px;
+  margin-top: : 15px;
+  margin-left: 15px;
+  color: #d9d9e3;
+  background-color: #202123;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  text-align: left;
+  width: calc(100% + 30px);
+  top: -15px;
+  left: -30px;
+  position: relative;
+}
+.language-c::before,
+ {
+  content: "c";
+}
+.language-cpp::before {
+  content: "cpp";
+}
+.language-css::before {
+  content: "css";
+}
+.language-html::before {
+  content: "html";
+}
+.language-javascript::before {
+  content: "javascript";
+}
+.language-php::before {
+  content: "php";
+}
+.language-python::before {
+  content: "python";
+}
+.language-ruby::before {
+  content: "ruby";
+}
+.language-swift::before {
+  content: "swift";
+}
+.language-c,
+.language-cpp,
+.language-css,
+.language-html,
+.language-javascript,
+.language-php,
+.language-python,
+.language-ruby,
+.language-swift {
+  background-color: black!important;
+  border-radius: 7px!important;
+  border: none !important;
+  color: #808080 !important;
+  line-height: 1.7 !important;
+  font-family: 'TestSöhneMono-Leicht', monospace !important;
 }
