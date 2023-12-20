@@ -8,18 +8,20 @@ This is a css style for [text-generation-webui][1] that looks like ChatGPT.
     - Mac: use Font Book for this (File --> Add Fonts to Current User)
 2. Download `chat_style-Chat-GPT.css`,
    and place it into [text-generation-webui\css][2] folder.
-3. Launch text-generation-webui's web server.
-4. Scroll down to see Chat style,
+3. Download 'TestSöhneMono-Leicht.otf',
+   and place it into [text-generation-webui\css][2] folder.
+5. Launch text-generation-webui's web server.
+6. Scroll down to see Chat style,
    and select Chat-GPT from the available chat styles.
-5. That's it.
+7. That's it.
 
 This style is meant to be used only in a chat setting, I haven't styled other pages like 'Parameters', 'Model' and so on.
 
-![TextGen_wip_10](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/04d5ea54-0a21-4b72-a235-b576a759c6fc)
-![TextGen_wip_11](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/45d6a135-5b5b-45be-a372-3cd71088ae2e)
-![TextGen_wip_12](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/5ea8d055-9e40-4618-bfae-a539d0835c17)
-![TextGen_wip_13](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/2fd13772-2e5f-48c6-bd10-2cc4ac89dbc6)
-![TextGen_wip_14](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/e1056b4a-292d-4099-8790-8655ed35ce80)
+![TextGen_wip_22](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/f6f8c824-7b4b-4129-b3e4-d02922cef97c)
+![TextGen_wip_21](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/bfd32cd6-704d-4ec2-8c2b-1c7c63266b1e)
+![TextGen_wip_20](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/60ed5003-a4f6-4331-8026-3681c8e3312e)
+![TextGen_wip_19](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/0699d752-e8c9-4db3-86f7-5d6cd5a96721)
+![TextGen_wip_18](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/4c6c2458-9b5a-4bf9-9950-16d9240747f4)
 
 [1]: https://github.com/oobabooga/text-generation-webui
 [2]: https://github.com/oobabooga/text-generation-webui/tree/main/css
