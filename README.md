@@ -16,18 +16,18 @@ This is a css style for [text-generation-webui][1] that looks like ChatGPT.
 
 This style is meant to be used only in a chat setting, I haven't styled other pages like 'Parameters', 'Model' and so on.
 
-![TextGen_wip_22](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/f6f8c824-7b4b-4129-b3e4-d02922cef97c)
-![TextGen_wip_21](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/bfd32cd6-704d-4ec2-8c2b-1c7c63266b1e)
-![TextGen_wip_20](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/60ed5003-a4f6-4331-8026-3681c8e3312e)
-![TextGen_wip_19](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/0699d752-e8c9-4db3-86f7-5d6cd5a96721)
-![TextGen_wip_18](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/4c6c2458-9b5a-4bf9-9950-16d9240747f4)
+![TextGen_wip_24](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/d0dfb3f5-8307-4f8e-a50d-4682eb320093)
+![TextGen_wip_23](https://github.com/KirillRepinArt/ChatGPT-UI/assets/118350327/4a7e41c6-4844-4762-9cfb-a60c248a6e79)
+
 
 [1]: https://github.com/oobabooga/text-generation-webui
 [2]: https://github.com/oobabooga/text-generation-webui/tree/main/css
 
 Couple of notes.
 1. If this style works for you and you would like to keep using it, I suggest caution when updating TexGen. The changes in the main repo might affect the names of the groups I've targeted with CSS, which would result in Chat-GPT style not working properly.
-2. This style doesn't work properly on mobile.
+2. This style doesn't do too good on mobile.
+3. Made for Brave browser, tested in Edge but it looks a bit different there.
+4. When renaming chats 'cancel' button is missing. Can't figure that one out.
 
 
 
