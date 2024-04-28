@@ -184,7 +184,6 @@ h1, h2, h3, p {
   background-color: transparent;
 }
 
-
 #component-35::-webkit-scrollbar-track {
   /* Hide the scrollbar track for WebKit browsers */
   background-color: transparent;
@@ -255,10 +254,38 @@ textarea[data-testid="textbox"]::-webkit-scrollbar-thumb {
 .svelte-1f354aw::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and Opera */
 }
-/* Style the Typing element */
-.typing {
-    display: none!important;
+#typing-container {
+  margin: 0px 0px 0px 0px!important;
+  padding: 0px 0px 0px 0px!important;
+  margin-left: 45px!important;
+  bottom: 15px!important;
+
 }
+/* Hide the other dots */
+#typing-container .dot2, #typing-container span:not(.dot1) {
+    display: none;  /* Hides dot2 and any other <span> that is not dot1 */
+}
+
+/* Style for the visible dot */
+#typing-container .dot1 {
+    background-color: white; /* Set the dot color to white */
+    height: 10px;  /* Initial height of the dot */
+    width: 10px;  /* Initial width of the dot */
+    border-radius: 50%;  /* Makes the dot circular */
+    animation: pulse 1.5s infinite;  /* Applies the animation */
+
+}
+
+/* Keyframes for the pulsing effect */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);  /* Dot at normal size */
+    }
+    50% {
+        transform: scale(1.5);  /* Dot increases to 1.5 times its size */
+    }
+}
+
 .chat {
     max-width: calc(100% - 0px)!important;
     height: 903px!important;
@@ -816,6 +843,7 @@ input.svelte-tq78c3 {
 .circle-bot + .text p {
     color: #ececec !important;
 }
+
 @font-face {
   font-family: 'TestSöhneMono-Leicht';
   src: url('path/to/TestSöhneMono-Leicht.otf') format('opentype');
@@ -826,10 +854,12 @@ input.svelte-tq78c3 {
 .language-css::before,
 .language-html::before,
 .language-javascript::before,
+.language-java::before,
 .language-php::before,
 .language-python::before,
 .language-ruby::before,
-.language-swift::before {
+.language-swift::before,
+.language-txt::before {
   content: "c"; /* Language name */
   font-size: 12px;
   display: block;
@@ -848,8 +878,7 @@ input.svelte-tq78c3 {
   left: -30px;
   position: relative;
 }
-.language-c::before,
- {
+.language-c::before {
   content: "c";
 }
 .language-cpp::before {
@@ -864,6 +893,9 @@ input.svelte-tq78c3 {
 .language-javascript::before {
   content: "javascript";
 }
+.language-java::before {
+  content: "java";
+}
 .language-php::before {
   content: "php";
 }
@@ -876,27 +908,36 @@ input.svelte-tq78c3 {
 .language-swift::before {
   content: "swift";
 }
+.language-txt::before {
+  content: "txt";
+}
 .language-c,
 .language-cpp,
 .language-css,
 .language-html,
 .language-javascript,
+.language-java,
 .language-php,
 .language-python,
 .language-ruby,
-.language-swift {
+.language-swift,
+.language-txt {
   background-color: #0d0d0d!important;
   border-radius: 7px!important;
-  border: none !important;
   color: #808080 !important;
   line-height: 1.7 !important;
   font-family: 'TestSöhneMono-Leicht', monospace !important;
+  border: none!important;
+  border: 1px solid rgba(47, 47, 47, 1.0)!important;
 }
 
 code {
     font-family: 'TestSöhneMono-Leicht', monospace!important;
     font-weight: bold !important;
-    border: none!important;
+    border: 3px solid rgba(47, 47, 47, 1.0)!important;
     outline: none  !important;
-    background-color: transparent!important;
+    background-color: #2f2f2f!important;
+}
+em {
+    display: none!important;
 }
